@@ -25,7 +25,7 @@ export function BannerEmpresa() {
         
 
           <ContentSocial>
-            <CardDatosEmpresa titulo="Moneda" valor={dataempresa?.simbolomoneda}/>
+            <CardDatosEmpresa titulo="Monedas" valor="$COP"/>
             <CardDatosEmpresa titulo="Usuarios" valor={contadorusuarios}/>
             
           </ContentSocial>

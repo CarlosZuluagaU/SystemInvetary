@@ -7,10 +7,11 @@ export function CardDatosEmpresa({ titulo, valor,img }) {
           <p class="pricing-plan">{titulo}</p>
           <div
             class="price-value"
-            data-currency="$ USD"
-            data-currency-simple="USD"
+            data-currency="$ COP"
+            data-currency-simple="COP"
           >
             <p class="price-number">{valor}</p>
+            
             {
               img&&  <img src={img}/>
             }
