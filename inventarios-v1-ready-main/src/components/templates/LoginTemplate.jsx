@@ -63,7 +63,7 @@ export function LoginTemplate() {
     <Container imgfondo={v.imagenfondo}>
       <div className="contentLogo">
         <img src={logo}></img>
-        <span>StockPRO</span>
+        <span>SoplaVientoMarket</span>
       </div>
       <div className="bannerlateral">
         <img src={carrito}></img>
@@ -73,16 +73,16 @@ export function LoginTemplate() {
         <div className="card">
           {state && <RegistrarAdmin setState={() => setState(!state)} />}
 
-          <Titulo>StockPRO</Titulo>
+          <Titulo>SoplaViento Market</Titulo>
           {stateInicio && (
             <TextoStateInicio>datos incorrectos</TextoStateInicio>
           )}
           <span className="ayuda">
             {" "}
-            Puedes crear una cuenta nueva ó <br></br>solicitar a tu empleador
+            Puedes crear una cuenta nueva o <br></br>solicitar a tu empleador
             una. <MdOutlineInfo />
           </span>
-          <p className="frase">Controla tu inventario.</p>
+          <p className="frase">Sistema de inventario</p>
           <form onSubmit={handleSubmit(iniciar)}>
             <InputText icono={<v.iconoemail />}>
               <input
