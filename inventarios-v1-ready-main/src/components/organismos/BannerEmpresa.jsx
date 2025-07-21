@@ -20,7 +20,7 @@ export function BannerEmpresa() {
 
           </span>
           <div className="content-text">
-            SoplaViento te mantiene siempre informado.
+            San Critobal
           </div>
         
 

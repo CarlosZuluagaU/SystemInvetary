@@ -6,17 +6,16 @@ export function FooterLogin() {
       <section className="lock">
         <GiPadlock />
         <span>
-          Esta es una pagina realizada con fines educativos para el proyecto 
-          de Estructura de Datos de la Universidad de Antioquia
-          <br /> cualquier inquietud o sugerencia puedes escribir a
+          Esta es una aplicacion privada, Katherine Amaya propietaria.
+          <br /> 
         </span>
       </section>
       <section className="derechos">
-        <span>Soplaveinto Market</span>
+        <span>San Critobal Inventario</span>
         <div className="separador"></div>
         <span>Todos los derechos reservados</span>
         <div className="separador"></div>
-        <span>© 2025 Universidad de Antioquia</span>
+        <span>© ZuluagaX</span>
       </section>
     </Container>
   );

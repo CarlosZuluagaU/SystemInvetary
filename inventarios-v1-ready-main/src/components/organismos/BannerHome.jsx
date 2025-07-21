@@ -16,10 +16,10 @@ export function BannerHome() {
         <div className="content-wrapper-context">
           <span className="titulo">
             {<v.iconoempresa />}
-            Bienvenido a SoplaViento Market
+            Bienvenido a Inventarios San Cristobal
           </span>
           <div className="content-text">
-            SoplaViento Market te ayuda a tener un control de tus inventarios desde
+            Inventarios San Cristobal te ayuda a tener un control de tus inventarios desde
             cualquier dispositivo.
           </div>
 

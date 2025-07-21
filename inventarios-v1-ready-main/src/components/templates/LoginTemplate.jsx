@@ -63,7 +63,7 @@ export function LoginTemplate() {
     <Container imgfondo={v.imagenfondo}>
       <div className="contentLogo">
         <img src={logo}></img>
-        <span>SoplaVientoMarket</span>
+        <span>Inventario San Cristobal</span>
       </div>
       <div className="bannerlateral">
         <img src={carrito}></img>
@@ -73,7 +73,7 @@ export function LoginTemplate() {
         <div className="card">
           {state && <RegistrarAdmin setState={() => setState(!state)} />}
 
-          <Titulo>SoplaViento Market</Titulo>
+          <Titulo>Inventaio San Cristobal</Titulo>
           {stateInicio && (
             <TextoStateInicio>datos incorrectos</TextoStateInicio>
           )}
